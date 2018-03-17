@@ -1,0 +1,92 @@
+body {
+  background-image: url("../assets/esp32.jpg");
+  /* cursor: url("../assets/esp32.jpg"); */
+  cursor: move;
+}
+
+#co-link {
+  font-size: 40px;
+  color: yellow;
+}
+
+#nav-to-us {
+  color: blue;
+  font-size: 24px;
+}
+
+#top-title {
+  height: 80px;
+  text-align: center;
+  color: red;
+}
+
+#first-view-ad-box {
+  background-color: black;
+  width: 40%;
+}
+
+#kiriban {
+  text-align: center;
+  color: yellow;
+}
+
+#kiriban-background {
+  text-align: center;
+  background-color: white;
+}
+
+#kiriban-marquee {
+  color: blue;
+}
+
+#news-box {
+  background-color: white;
+  width: 80%;
+  float: left;
+}
+
+#news-box-title {
+  font-size: 40px;
+  color: brown;
+  text-align: center;
+}
+
+#self-introduction-box {
+  color: white;
+  clear: both;
+}
+
+#ad-box {
+  float: right;
+}
+
+#contact-box {
+  width: 50%;
+  border-style: groove;
+  border-color: aqua;
+  color: aqua;
+}
+
+@keyframes blink {
+  75% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes blink {
+  75% {
+    opacity: 0;
+  }
+}
+
+.blink {
+  animation: blink 0.15s step-end infinite;
+  -webkit-animation: blink 0.15s step-end infinite;
+}
+#ad-box-3 {
+  width: 15%;
+  float: left;
+}
+#ad-3 {
+  width: 100%;
+}
