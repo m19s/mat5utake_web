@@ -1,5 +1,5 @@
 body {
-  background-image: url("../assets/esp32.jpg");
+  background-image: url("../assets/anime1.gif");
   /* cursor: url("../assets/esp32.jpg"); */
   cursor: move;
 }
@@ -46,8 +46,8 @@ body {
 }
 
 #news-box-title {
-  font-size: 40px;
-  color: brown;
+  font-size: 50px;
+  color: greenyellow;
   text-align: center;
 }
 
@@ -89,4 +89,9 @@ body {
 }
 #ad-3 {
   width: 100%;
+}
+
+#footer {
+    color: white;
+    clear: both;
 }

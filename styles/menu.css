@@ -1,6 +1,9 @@
 body {
   background-color: black;
   color: greenyellow;
+  background-image: url("../assets/esp32.jpg");
+  /* cursor: url("../assets/esp32.jpg"); */
+  cursor: move;
 }
 
 .nav-img {
